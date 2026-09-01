@@ -26,7 +26,7 @@ class LazyVerification implements Verification {
   }
 
   @override
-  List<MockHttpRequest> get calls => _verification().calls;
+  List<MockHttpRequest> get requests => _verification().requests;
 
   @override
   int get count => _verification().count;

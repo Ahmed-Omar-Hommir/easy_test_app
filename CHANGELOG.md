@@ -1,3 +1,9 @@
+## 0.1.3
+
+- Upgrade `easy_mock_http` to `^0.4.0` and expose matching requests through
+  `LazyVerification.requests`.
+- Add package repository metadata.
+
 ## 0.1.2
 
 - Upgrade `easy_mock_http` to `^0.3.0`.
