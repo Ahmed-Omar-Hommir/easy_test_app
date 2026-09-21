@@ -1,3 +1,8 @@
+## 0.1.4
+
+- Remove the default `path_provider` channel mock from the widget test wrappers.
+  Apps that need directory mocks should configure them in their `init` callback.
+
 ## 0.1.3
 
 - Upgrade `easy_mock_http` to `^0.4.0` and expose matching requests through

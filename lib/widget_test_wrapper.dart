@@ -37,16 +37,6 @@ void easyTestWidgets(
           mockChannel.init();
           mockSystemChannel.init();
 
-          mockChannel('plugins.flutter.io/path_provider')
-            ..when(
-              method: 'getApplicationDocumentsDirectory',
-              returns: '/app_root',
-            )
-            ..when(
-              method: 'getApplicationSupportDirectory',
-              returns: '/app_root',
-            );
-
           await init?.call();
 
           try {
